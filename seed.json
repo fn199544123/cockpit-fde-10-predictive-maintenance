@@ -1,0 +1,120 @@
+{
+  "devices": [
+    {
+      "id": "SIM-E001",
+      "name": "电解循环泵",
+      "shop": "一车间",
+      "hours": 1240,
+      "next": 1200,
+      "interval": 300,
+      "tempMax": 85,
+      "vibMax": 6,
+      "readings": [
+        {
+          "hours": 1200,
+          "temp": 73,
+          "vib": 3.1,
+          "time": "演示采集 01"
+        },
+        {
+          "hours": 1220,
+          "temp": 79,
+          "vib": 4.2,
+          "time": "演示采集 02"
+        },
+        {
+          "hours": 1240,
+          "temp": 88,
+          "vib": 6.4,
+          "time": "演示采集 03"
+        }
+      ]
+    },
+    {
+      "id": "SIM-E002",
+      "name": "铸造冷却泵",
+      "shop": "二车间",
+      "hours": 860,
+      "next": 1000,
+      "interval": 250,
+      "tempMax": 80,
+      "vibMax": 5,
+      "readings": [
+        {
+          "hours": 820,
+          "temp": 61,
+          "vib": 2.8,
+          "time": "演示采集 01"
+        },
+        {
+          "hours": 840,
+          "temp": 63,
+          "vib": 2.6,
+          "time": "演示采集 02"
+        },
+        {
+          "hours": 860,
+          "temp": 62,
+          "vib": 2.7,
+          "time": "演示采集 03"
+        }
+      ]
+    },
+    {
+      "id": "SIM-E003",
+      "name": "铸锭输送机",
+      "shop": "三车间",
+      "hours": 460,
+      "next": 600,
+      "interval": 200,
+      "tempMax": 75,
+      "vibMax": 5,
+      "readings": [
+        {
+          "hours": 440,
+          "temp": 49,
+          "vib": 2,
+          "time": "演示采集 01"
+        },
+        {
+          "hours": 450,
+          "temp": 51,
+          "vib": 2.3,
+          "time": "演示采集 02"
+        },
+        {
+          "hours": 460,
+          "temp": 54,
+          "vib": 2.8,
+          "time": "演示采集 03"
+        }
+      ]
+    }
+  ],
+  "parts": [
+    {
+      "id": "SIM-P001",
+      "name": "泵轴承",
+      "stock": 3,
+      "min": 3
+    },
+    {
+      "id": "SIM-P002",
+      "name": "密封组件",
+      "stock": 12,
+      "min": 4
+    }
+  ],
+  "orders": [
+    {
+      "id": "SIM-W0001",
+      "device": "SIM-E001",
+      "due": 1200,
+      "team": "一车间维修组",
+      "status": "待处理",
+      "created": "2026/9/27 21:52:46"
+    }
+  ],
+  "logs": [],
+  "seq": 2
+}
